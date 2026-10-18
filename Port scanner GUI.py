@@ -23,7 +23,7 @@ name_label = tk.Label(root, text="Port Scanner", bg="black", fg="white")
 name_label.pack()
 
 name_entry = tk.Entry(root, bg="#222222", fg="white", insertbackground="white")
-name_entry.insert(0, "127.0.0.1")
+name_entry.insert(0, "127.0.0.1") #The IP 127.0.0.1 stands for "This PC" / "My PC"
 name_entry.pack()
 
 def scan_port(host, port):
